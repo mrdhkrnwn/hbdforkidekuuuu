@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;600;700;800;900&family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: url(images/lovelove.webp);
+    background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 767px) {
+    .navbar {
+        padding-top: 10px;
+        padding-bottom: 20px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        
+    }
+    .navbar h1 {
+        font-family: 'kanit';
+        font-weight: 500;
+        font-size: 13px;
+        color: rgb(247, 203, 209);
+    }
+    
+    .hero {
+        padding: 40px;
+        padding-top: 80px;
+    }
+
+    .texthero {
+        display: grid;
+        place-items: center;
+    }
+
+    .texthero h1 {
+        font-family: 'kanit';
+        font-weight: 600;
+        font-size: 24px;
+        color: rgb(245, 199, 199);
+    }
+
+    .texthero p {
+        font-family: 'kanit';
+        font-weight: 400;
+        font-size: 10px;
+        color: rgb(204, 204, 204);
+        padding-bottom: 40px;
+    }
+
+    .imagehero {
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        row-gap: 40px;
+    }
+
+    .sizeimg {
+        width: 340;
+        height: 250;
+    }
+
+    .main {
+        padding-top: 40px;
+        padding-bottom: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .nextpage {
+        background-color: blue;
+        height: 35px;
+        width: 320px;
+        border-radius: 50px;
+        display: grid;
+        place-content: center;
+    }
+
+    .nextpage a {
+        text-decoration: none;
+        color: white;
+    }
+
+    .nextpage:hover {
+        background-color: blueviolet;
+    }
+
+    .main2 {
+        padding-bottom: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .nextpage2 {
+        border: 3px solid white;
+        height: 33px;
+        width: 317px;
+        border-radius: 50px;
+        display: grid;
+        place-content: center;
+    }
+
+    .nextpage2 a {
+        text-decoration: none;
+        color: rgb(186, 186, 247);
+    }
+
+    .nextpage2:hover {
+        background-color: blue;
+        border: none;
+    }
+    .nextpage2 a:hover {
+        color: white;
+    }
+}
